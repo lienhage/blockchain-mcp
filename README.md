@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) based blockchain tools server providing Ethereum vanity address generation and Cast command functionality.
 
+<a href="https://glama.ai/mcp/servers/@lienhage/blockchain-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@lienhage/blockchain-mcp/badge" alt="Blockchain Server MCP server" />
+</a>
+
 ## Features
 
 ### 1. Ethereum Vanity Address Generation
@@ -287,4 +291,4 @@ Add to your MCP client configuration:
 
 ## License
 
-MIT License 
+MIT License
