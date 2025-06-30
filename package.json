@@ -1,0 +1,46 @@
+{
+  "name": "blockchain-mcp-server",
+  "version": "1.0.0",
+  "description": "Blockchain MCP Server with Ethereum vanity address generation, 4byte lookup, ABI encoding, and multi-chain RPC calls",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "blockchain-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/blockchain-mcp.git"
+  },
+  "homepage": "https://github.com/your-username/blockchain-mcp#readme",
+
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:http": "node dist/http-server.js",
+    "dev": "tsx src/index.ts",
+    "dev:http": "tsx src/http-server.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "blockchain", "ethereum", "vanity-address", "cast"],
+  "author": "lienhage@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ethers": "^6.13.0",
+    "zod": "^3.22.0",
+    "node-fetch": "^3.3.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}

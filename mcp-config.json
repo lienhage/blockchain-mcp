@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "blockchain-mcp": {
+      "command": "node",
+      "args": ["/Users/lienhage/Projects/Research/blockchain-mcp/dist/index.js"],
+      "env": {}
+    }
+  }
+} 
